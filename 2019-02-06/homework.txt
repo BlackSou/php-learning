@@ -1,0 +1,195 @@
+`Домашнее задание 28/01/2019`
+
+*программа минимум*:
+
+0. Закончить предидущую домашку
+
+1. _посмотреть видео_ с Олегом:
+ - Заголовки, куки, сессии (mysql не смотрите)
+    https://php-academy.kiev.ua/video/view/961-Заголовки-куки-сессии-mysql
+
+2. _интерактивное обучение_:
+ - Регулярки (Пройти обучалку на по реглярным выражениям): https://regexone.com/
+
+3. _теория_:
+ - Функции для работы с HTML сущностями
+   = htmlspecialchars() - http://php.net/manual/ru/function.htmlspecialchars.php
+   = htmlspecialchars_decode() - http://php.net/manual/ru/function.htmlspecialchars-decode.php
+   = htmlentities() - http://php.net/manual/ru/function.htmlentities.php
+   = get_html_translation_table() - http://php.net/manual/ru/function.get-html-translation-table.php
+   = html_entity_decode() - http://php.net/manual/ru/function.html-entity-decode.php
+   = strip_tags() - http://php.net/manual/ru/function.strip-tags.php
+   = nl2br() - http://php.net/manual/ru/function.nl2br.php
+
+ - Функции контроля вывода (Буферизация) - http://php.net/manual/ru/ref.outcontrol.php
+   = ob_start - http://php.net/manual/ru/function.ob-start.php
+   = ob_end_flush - http://php.net/manual/ru/function.ob-end-flush.php
+   = ob_end_clean - http://php.net/manual/ru/function.ob-end-clean.php
+   = ob_get_contents - http://php.net/manual/ru/function.ob-get-contents.php
+
+ - Способы определения строк - http://php.net/manual/ru/language.types.string.php#language.types.string.syntax
+   = одинарные кавычки - http://php.net/manual/ru/language.types.string.php#language.types.string.syntax.single
+   = двойные кавычки - http://php.net/manual/ru/language.types.string.php#language.types.string.syntax.double
+   = heredoc-синтаксис - http://php.net/manual/ru/language.types.string.php#language.types.string.syntax.heredoc
+   = nowdoc-синтаксис - php.net/manual/ru/language.types.string.php#language.types.string.syntax.nowdoc
+
+ - Сессии - http://php.net/manual/ru/book.session.php
+   = Введение - http://php.net/manual/ru/intro.session.php
+   = Основы использования - http://php.net/manual/ru/session.examples.basic.php
+   = Передача идентификатора сессии - http://php.net/manual/ru/session.idpassing.php
+   = Пользовательские обработчики сессии - http://php.net/manual/ru/session.customhandler.php
+   = Базовые принципы управления сессиями - http://php.net/manual/ru/features.session.security.management.php
+   = session_status() - http://php.net/manual/ru/function.session-status.php
+   = session_regenerate_id() - http://php.net/manual/ru/function.session-regenerate-id.php
+   = session_start() - http://php.net/manual/ru/function.session-start.php
+   = session_write_close() - http://php.net/manual/ru/function.session-write-close.php
+   = session_reset() - http://php.net/manual/ru/function.session-reset.php
+   = session_destroy() - http://php.net/manual/ru/function.session-destroy.php
+   = session_unset() - http://php.net/manual/ru/function.session-unset.php
+
+ - Cookies - http://php.net/manual/ru/features.cookies.php
+   = Краткий обзор - http://php.net/manual/ru/language.variables.external.php#language.variables.external.cookies
+   = $_COOKIE - http://php.net/manual/ru/reserved.variables.cookies.php
+   = setcookie() - http://php.net/manual/ru/function.setcookie.php
+   = setrawcookie() - http://php.net/manual/ru/function.setrawcookie.php
+
+ - HTTP-Заголовки
+   = Что такое HTTP заголовки. Общая теория - http://borpost.ru/php/chto-takoe-http-zagolovki-http-headers-obshhaya-teoriya/
+   = HTTP заголовки в запросах к серверу - http://borpost.ru/php/http-zagolovki-v-zaprosax-k-serveru/
+   = HTTP заголовки в ответах сервера - http://borpost.ru/php/http-zagolovki-v-otvetax-servera/
+   = HTTP-аутентификация в PHP - http://php.net/manual/ru/features.http-auth.php
+   = header() - http://php.net/manual/ru/function.header.php
+   = headers_list() - http://php.net/manual/ru/function.headers-list.php
+   = headers_sent() - http://php.net/manual/ru/function.headers-sent.php
+   = header_remove() - http://php.net/manual/ru/function.header-remove.php
+
+ - Список кодов состояния HTTP
+   = HTTP коды статусов сервера - http://borpost.ru/php/http-kody-statusov-servera/
+   = Код состояния HTTP - https://ru.wikipedia.org/wiki/Список_кодов_состояния_HTTP
+   = http_response_code() - http://php.net/manual/ru/function.http-response-code.php
+   = header() - http://php.net/manual/ru/function.header.php
+
+ - Загрузка файлов на сервер - http://php.net/manual/ru/features.file-upload.post-method.php
+
+ - Регулярные выражения
+   = Метасимволы - http://php.net/manual/ru/regexp.reference.meta.php
+   = Якоря - http://php.net/manual/ru/regexp.reference.anchors.php
+   = preg_match() - http://php.net/manual/ru/function.preg-match.php
+   = preg_match_all() - http://php.net/manual/ru/function.preg-match-all.php
+   = preg_replace() - http://php.net/manual/ru/function.preg-replace.php
+
+4. ПРАКТИКА (если всё сделали и повторили теорию):
+ - I. `Codewars`
+   Все задания должны выполняться в папке "`*2019-02-06/codewars*`" , в отдельных файлах, которые должны называться по номеру задания, например, "17.php".
+   Если задание требует создания нескольких файлов - то такие файлы необходимо размещать в папке, название которой равно номеру задания.
+   Разместить все в своей репе на гите
+   задания в файле 'homework-codewars.txt'
+   *ВАЖНО*: размещать решение только после прохождения проверки на `codewars`, также в каждом файле добавлять условие в комментарии перед решением задачи
+
+
+*программа ПОВТОРЕНИЕ*:
+
+1. _интерактивное обучение_:
+ - CLI - https://www.codecademy.com/learn/learn-the-command-line
+ - HTML - https://www.codecademy.com/learn/learn-html
+ - CSS - https://www.codecademy.com/learn/learn-css
+ - git - https://githowto.com/ru
+ - PHP - https://code-basics.ru/languages/php
+
+2. _видео_:
+ - Основы сетей, http №4338 - https://php-academy.kiev.ua/video/view/4338-Основы-сетей-http
+ - Основы HTML, CSS №4339 - https://php-academy.kiev.ua/video/view/4339-Основы-html-css
+ - Основы РНР №4340 - https://php-academy.kiev.ua/video/view/4340-Основы-РНР
+ - Основы PHP №4345 - https://php-academy.kiev.ua/video/view/4345-Основы-php
+ - Массивы, циклы 1 №4346 - https://php-academy.kiev.ua/video/view/4346-Массивы-циклы-1
+ - Массивы, циклы 2 №4347 - https://php-academy.kiev.ua/video/view/4347-Массивы-циклы-2
+ - Функции 1 №4348 - https://php-academy.kiev.ua/video/view/4348-Функции-1
+ - Функции - 2 №4349 - https://php-academy.kiev.ua/video/view/4349-Функции--2
+ - Формы, файловая система №4374 - https://php-academy.kiev.ua/video/view/4374-Формы-файловая-система
+ - Заголовки №4375 - https://php-academy.kiev.ua/video/view/4375-Заголовки
+ - Заголовки, куки, сессии №4376 - https://php-academy.kiev.ua/video/view/4376-Заголовки-куки-сессии
+
+3. _теория_:
+ 1.a. `devionity.com`:
+ - "Курс Основы сетей": https://devionity.com/ru/courses/network-basics
+ - "Курс Основы HTML": https://devionity.com/ru/courses/html-fundamentals
+ - "Курс Основы CSS": https://devionity.com/ru/courses/css-fundamentals
+ - "Курс Изучаем PHP онлайн. Часть I": https://devionity.com/ru/courses/php-fundamentals
+ - "Курс Cookies в PHP": https://devionity.com/ru/courses/php-cookies
+
+ 1.b. `php.net`:
+ - Типы данных - http://php.net/manual/ru/language.types.php
+   = Манипуляции с типами http://php.net/manual/ru/language.types.type-juggling.php#language.types.typecasting
+   = Таблица сравнения типов в PHP http://php.net/manual/ru/types.comparisons.php
+
+ - Переменные
+   = Определение http://php.net/manual/ru/language.variables.basics.php
+   = Предопределенные переменные http://php.net/manual/ru/reserved.variables.php
+     -> Суперглобальные переменные http://php.net/manual/ru/language.variables.superglobals.php
+   = Область видимости переменной http://php.net/manual/ru/language.variables.scope.php
+   = Переменные переменных http://php.net/manual/ru/language.variables.variable.php
+
+ - Константы http://php.net/manual/ru/language.constants.php
+   = Синтаксис http://php.net/manual/ru/language.constants.syntax.php
+   = Волшебные (Магические) константы http://php.net/manual/ru/language.constants.predefined.php
+   = Предопределенные константы http://php.net/manual/ru/reserved.constants.php
+
+ - Выражения http://php.net/manual/ru/language.expressions.php
+
+ - Операторы http://php.net/manual/ru/language.operators.php
+   = Приоритет оператора http://php.net/manual/ru/language.operators.precedence.php
+   = Арифметические операторы http://php.net/manual/ru/language.operators.arithmetic.php
+   = Оператор присваивания http://php.net/manual/ru/language.operators.assignment.php
+   = Операторы сравнения http://php.net/manual/ru/language.operators.comparison.php
+   = Операторы инкремента и декремента http://php.net/manual/ru/language.operators.increment.php
+   = Логические операторы http://php.net/manual/ru/language.operators.logical.php
+   = Строковые операторы http://php.net/manual/ru/language.operators.string.php
+
+ - Управляющие конструкции http://php.net/manual/ru/language.control-structures.php
+   = if http://php.net/manual/ru/control-structures.if.php
+   = else http://php.net/manual/ru/control-structures.else.php
+   = elseif/else if http://php.net/manual/ru/control-structures.elseif.php
+   = Альтернативный синтаксис управляющих структур http://php.net/manual/ru/control-structures.alternative-syntax.php
+   = while http://php.net/manual/ru/control-structures.while.php
+   = do-while http://php.net/manual/ru/control-structures.do.while.php
+   = for http://php.net/manual/ru/control-structures.for.php
+   = foreach http://php.net/manual/ru/control-structures.foreach.php
+   = break http://php.net/manual/ru/control-structures.break.php
+   = continue http://php.net/manual/ru/control-structures.continue.php
+   = switch http://php.net/manual/ru/control-structures.switch.php
+   = return http://php.net/manual/ru/function.return.php
+   = require http://php.net/manual/ru/function.require.php
+   = include http://php.net/manual/ru/function.include.php
+   = require_once http://php.net/manual/ru/function.require-once.php
+   = include_once http://php.net/manual/ru/function.include-once.php
+
+ - Функции http://php.net/manual/ru/language.functions.php
+   = Функции, определяемые пользователем http://php.net/manual/ru/functions.user-defined.php
+   = Аргументы функции http://php.net/manual/ru/functions.arguments.php
+   = Возврат значений http://php.net/manual/ru/functions.returning-values.php
+   = Обращение к функциям через переменные http://php.net/manual/ru/functions.variable-functions.php
+   = Анонимные функции http://php.net/manual/ru/functions.anonymous.php
+
+ - Обработка ошибок http://php.net/manual/ru/language.errors.basics.php
+   = Предопределенные константы http://php.net/manual/ru/errorfunc.constants.php
+   = Функции обработки ошибок http://php.net/manual/ru/ref.errorfunc.php
+
+ - Ссылки http://php.net/manual/ru/language.references.php
+   = Что такое ссылки http://php.net/manual/ru/language.references.whatare.php
+   = Что делают ссылки http://php.net/manual/ru/language.references.whatdo.php
+   = Чем ссылки не являются http://php.net/manual/ru/language.references.arent.php
+   = Передача по ссылке http://php.net/manual/ru/language.references.pass.php
+   = Сброс переменных-ссылок http://php.net/manual/ru/language.references.unset.php
+   = Неявное использование механизма ссылок http://php.net/manual/ru/language.references.spot.php
+
+ - !!! Функции для работы со строками - http://php.net/manual/ru/ref.strings.php
+   = Многобайтовые строки (Мультибайтовые кодировки). Введение - http://php.net/manual/ru/intro.mbstring.php
+   = Функции для работы с многобайтовыми строками - http://php.net/manual/ru/ref.mbstring.php
+
+ - !!! Функции для работы с массивами - http://php.net/manual/ru/ref.array.php
+   = Сортировка массивов http://php.net/manual/ru/array.sorting.php
+
+ - !!! Функции файловой системы - http://php.net/manual/ru/ref.filesystem.php
+
+ - !!! Функции управления функциями - http://php.net/manual/ru/ref.strings.php
+

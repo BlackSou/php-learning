@@ -1,0 +1,13 @@
+Инициализация
+`git init`
+`git remote add origin http://gitlab.php-academy.org/17.12_PHP/tayokin-max.git`
+`git fetch --all`
+`git checkout -b develop origin/develop`
+`git checkout -b master origin/master`
+
+Создаём бранчу от мастера
+`git checkout -b _<your_surname>_`
+вносим изменения, сохраняем
+`git add .`
+`git commit -m "_<your_surname>_ _<describe_changes>_"`
+`git push origin test`

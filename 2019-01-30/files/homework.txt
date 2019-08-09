@@ -1,0 +1,68 @@
+`Домашнее задание 30/01/2019`
+
+*программа минимум*:
+
+1. _посмотреть видео_ с Олегом:
+ - Заголовки - https://php-academy.kiev.ua/video/view/4375-Заголовки
+ - Заголовки-куки-сессии - https://php-academy.kiev.ua/video/view/4376-Заголовки-куки-сессии
+
+2. _теория_:
+ 2.а. Devionity:
+  - COOKIE - https://devionity.com/ru/courses/php-cookies
+  - Создаем форму регистрации с сохранением данных в файл - https://devionity.com/ru/courses/php-fundamentals/creating-registration-form-using-filesystem
+ 2.б. php.net
+  - header() - Отправка HTTP-заголовка
+    http://php.net/manual/ru/function.header.php
+  - HTTP Cookies
+     = http://php.net/manual/ru/features.cookies.php
+     = http://php.net/manual/ru/language.variables.external.php#language.variables.external.cookies
+     = http://php.net/manual/ru/reserved.variables.cookies.php
+  - setcookie() - функция отправки "печенек"
+    http://php.net/manual/ru/function.setcookie.php
+ 2.в. Заголовки
+  - Что такое Http заголовки (Http headers). Общая теория.
+     = Http коды статусов сервера
+     = Http заголовки в запросах к серверу
+     = Http заголовки в ответах сервера
+    http://borpost.ru/php/chto-takoe-http-zagolovki-http-headers-obshhaya-teoriya/
+
+3. _Разобраться_:
+ - отличие isset, empty, is_null
+   http://php.net/manual/ru/types.comparisons.php
+ - отличие exit() от die() от return false;
+   http://php.net/manual/ru/function.exit.php
+   http://php.net/manual/ru/function.die.php
+   http://php.net/manual/ru/function.return.php
+ - отличие break от continue
+   http://php.net/manual/ru/control-structures.break.php
+   http://php.net/manual/ru/control-structures.continue.php
+ - отличие timestamp от datetime
+   https://habr.com/ru/post/61391/
+
+4. ПРАКТИКА:
+ - Используя форму (с Bootstrap) из ДЗ от `26/12/2018` создать такую же но уже с помощью PHP
+   = Форма должна настраиваться в отдельном php файле
+   = В индексном файле нужно вызывать только одну функцию php, которая будет отрисовывать форму
+   = Применяемые классы стилей (не все, а только специфические) должны внедряться с помощью настроек формы из файла php
+   = Все опции, подпункты для чекбоксов, селектов и т.д. также долны находится в файле настроек
+   Задание выполнять в папке "`*2019-01-30/form*`"
+
+
+*программа максимум*:
+1. _теория_:
+ - Чем отличается header('Content-Type: …) от header('Location: …)? Для чего эта функция?
+ - getallheaders() — Возвращает все заголовки HTTP-запроса
+   http://php.net/manual/ru/function.getallheaders.php
+ - Сессии ОСНОВЫ - http://php.net/manual/ru/session.examples.basic.php
+
+2. ПРАКТИКА:
+ - I. `Задачи по алгоритмам (основы)`
+   Все задания должны выполняться в папке "`*2019-01-30/codewars*`" , в отдельных файлах, которые должны называться по номеру задания, например, "17.php".
+   Если задание требует создания нескольких файлов - то такие файлы необходимо размещать в папке, название которой равно номеру задания.
+   Разместить все в своей репе на гите
+   задания в файле './homework-codewars.txt'
+   *ВАЖНО*: размещать решение только после прохождения проверки на `codewars`, также в каждом файле добавлять условие в комментарии перед решением задачи
+
+3. _полезно узнать_:
+ - Что такое BOM? Почему PHP'шники его не любят? - https://ru.wikipedia.org/wiki/Маркер_последовательности_байтов
+ - UTF-8 в PHP - https://habr.com/ru/post/113715/

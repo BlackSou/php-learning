@@ -1,0 +1,12 @@
+`Домашнее задание 04/02/2019`
+
+*программа минимум*:
+0. Закончить предидущую домашку
+
+1. _теория_:
+  - функции serialize(), unserialize()
+    http://php.net/manual/ru/function.serialize.php
+    http://php.net/manual/ru/function.unserialize.php
+
+  - функции контроля вывода, например `ob_start` и `ob_get_clean`
+    http://php.net/manual/ru/ref.outcontrol.php

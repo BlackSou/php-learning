@@ -1,0 +1,73 @@
+`Домашнее задание 19/12/2018`
+
+*программа минимум*:
+1. _создать аккаунты_, если еще не создали:
+ - https://devionity.com
+ - https://www.codecademy.com
+ - https://php-academy.kiev.ua/students/gitlab => http://gitlab.php-academy.org/ *отправить Максу данные по созданному юзеру*
+
+2.  _прочитать теорию_:
+HTML - https://devionity.com/ru/courses/html-fundamentals
+CSS - https://devionity.com/ru/courses/css-fundamentals
+
+3. _пройти обучение_:
+CLI - https://www.codecademy.com/learn/learn-the-command-line
+
+4. _настройка софта_:
+ - закончить настройку виртуального хоста http:\\test.loc
+ - установить качественный текстовый редактор (например Sublime, Notepad++)
+ - установить PHPStorm, если еще не установили, оформить БЕСПЛАТНУЮ лицензию ( https://php-academy.kiev.ua/students/profile )
+ - тем кто решил остаться на винде наличие альтернативного терминала обязательно например Cmder ( http://cmder.net/ )
+ - настроить переменные среды, для следующего софта: 
+   = php
+   = mysql
+   = sublime
+
+5. `ПРАКТИКА`: С помощью html и css _cверстать своё резюме_ (без использования *Bootstrap* ) в виде html-странички.
+*Результат отправить на почту Максу* (tayokin.max@gmail.com), обязательно подпишите от кого
+прим.: должны быть 
+ - заголовки, картинки, теги p, ul, 
+ - ссылки на соцсети в виде картинок, 
+ - таблица, 
+ - используйте стили (подключайте их отдельным файлом)
+
+
+*программа максимум*:
+1. _создать аккаунты_:
+ - https://www.codewars.com/
+ - https://github.com/
+
+2.  _прочитать|посмотреть теорию_:
+GIT - https://tproger.ru/translations/difference-between-git-and-github/
+Основы HTML, CSS - https://php-academy.kiev.ua/video/view/4339-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-html-css
+
+3. _пройти обучение_:
+HTML - https://www.codecademy.com/learn/learn-html
+CSS - https://www.codecademy.com/learn/learn-css
+
+4. `ПРАКТИКА`: готовое резюме из пункта 5 "программы минимум":
+ - разместить на новом виртуальном хосте "http:\\cv.loc"
+ - добавить табы в резюме ( http://forwww.com/wp-content/uploads/2016/03/css3-jquery-folder-tabs.png )
+ - добавить эффекты:
+   = при наведении ссылка меняет цвет
+   = полупрозрачные изображения ( http://htmlbook.ru/faq/kak-ustanovit-izobrazhenie-poluprozrachnym )
+   = активные картинки ( http://htmlbook.ru/faq/kak-sdelat-chtoby-kartinka-menyalas-pri-navedenii-na-nee )
+   = добавить меню-шапку в верзней части резюме
+   = зафиксировать шапку, что бы при скроллинге вниз она оставалась на месте ( https://www.poseti.net/articles/fiksacziya-shapki-sajta )
+
+5. _полезные ссылки_ (можно посмотреть но не тратьте на них много времени):
+- https://webref.ru/
+- http://htmlbook.ru/
+- https://html5book.ru/specsimvoly-html/
+
+
+*ЗАДАНИЕ для СУПЕРМЕНОВ*:
+	для тех кто удаленно есть два варианта
+	a. более простой, своими словами написать текст и скинуть Максу в Slack
+	b. путь самурая: видео или голосовая запись
+	(суть задания подготовить рассказ на 2 минуты кратко и структурировано отвечающий на один из вопросов)
+	 *если вы согласитесь то напишите Максу какой вопрос берете*
+1. Что такое валидация разметки? Как ее применять на практике?
+2. Простое объяснение блочной модели в CSS
+3. Что такое класс и идентификатор? Какая между ними разница? Когда и почему нужно использовать каждый из них?
+4. Что такое Псевдоклассы? Привести примеры использования

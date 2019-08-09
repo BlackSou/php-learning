@@ -1,0 +1,15 @@
+1. https://www.codewars.com/kata/multiply
+2. https://www.codewars.com/kata/even-or-odd
+3. https://www.codewars.com/kata/opposite-number
+4. https://www.codewars.com/kata/find-the-smallest-integer-in-the-array
+5. https://www.codewars.com/kata/string-repeat
+6. https://www.codewars.com/kata/sum-of-positive
+7. https://www.codewars.com/kata/convert-boolean-values-to-strings-yes-or-no
+8. https://www.codewars.com/kata/convert-a-number-to-a-string
+9. https://www.codewars.com/kata/remove-first-and-last-character
+10. https://www.codewars.com/kata/reversed-strings
+11. https://www.codewars.com/kata/remove-string-spaces
+12. https://www.codewars.com/kata/jennys-secret-message
+13. https://www.codewars.com/kata/basic-mathematical-operations
+14. https://www.codewars.com/kata/square-n-sum
+15. https://www.codewars.com/kata/grasshopper-summation

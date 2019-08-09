@@ -1,0 +1,52 @@
+1. FILES
+ - fopen($filename, $mode) - открытие файлового потока
+    http://php.net/manual/ru/function.fopen.php
+	= "r" - только чтение, маркер в начале файла, маркер в начале файла
+	= "r+" - для чтения и записи, маркер в начале файла
+	= "w" - только запись, очищает файл (если файла нет - создает), маркер в начале файла
+	= "w+" - для чтения и записи, очищает файл (если файла нет - создает), маркер в начале файла
+	= "a" - только запись (если файла нет - создает), маркер в конце файла
+	= "a+" - для чтения и записи (если файла нет - создает), маркер в конце файла
+ - fclose($handler) - закрытие файла
+    http://php.net/manual/ru/function.fclose.php
+
+ - fread($handle, $length) - чтение файла
+    http://php.net/manual/ru/function.fread.php
+ 	= fread($handle, filesize(filename))
+ - fwrite($handler, $data) - запись в файл
+    http://php.net/manual/ru/function.fwrite.php
+
+ - fgets($handler) — Читает строку из файла
+    http://php.net/manual/ru/function.fgets.php
+ - fputs(handler, $string) - запись в файл
+    http://php.net/manual/ru/function.fputs.php
+ - feof($handler) -  Проверяет, достигнут ли конец файла
+    http://php.net/manual/ru/function.feof.php
+
+ - file_get_contents($filename) + http(s)
+    http://php.net/manual/ru/function.file-get-contents.php
+ - file_put_contents($filename, $data) - запись в файл
+    http://php.net/manual/ru/function.file-put-contents.php
+
+ - file($filepath) - читает файл в массив (каждая строка - новый элемент)
+    http://php.net/manual/ru/function.file.php
+
+ - flock($handler, $action) - блокировка файла
+    http://php.net/manual/ru/function.flock.php
+   	= LOCK_SH - разделяемая блокировка (для чтения). Эта блокировка позволяет читать файл нескольким процессам. При этом, если необходима запись в файл, то это осуществляется последовательно.
+   	= LOCK_EX - эксклюзивная блокировки (для записи). Эта блокировка допускает лишь один процесс к записи в файл и предотвратит ошибки при попытке одновременной записи в файл разными процессами.
+   	= LOCK_UN - снятие блокировки
+
+ - unlink($filename) - удаление файла
+    http://php.net/manual/ru/function.unlink.php
+
+
+2. Подключение файлов:
+ - include - если файл не найден то Warning, многократное подключение
+    http://php.net/manual/ru/function.include.php
+ - require - если файл не найден то Fatal, многократное подключение
+    http://php.net/manual/ru/function.require.php
+ - include_once - если файл не найден то Warning, однократное подключение
+    http://php.net/manual/ru/function.include-once.php
+ - require_once - если файл не найден то Fatal, однократное подключение
+    http://php.net/manual/ru/function.require-once.php

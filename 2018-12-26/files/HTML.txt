@@ -1,0 +1,113 @@
+24/12/2018
+
+1. Тег <pre>
+<pre>
+                               .-.
+                       __   /   \   __
+                      (  `'.\   /.'`  )
+                       '-._.(;;;)._.-'
+                       .-'  ,`"`,  '-.
+                      (__.-'/   \'-.__)
+                            \   /\
+                             '-'  \
+                              ,    |
+                              |\   |
+                              \ |  |
+                               | \ /
+                                \|/    _,
+                                 /  __/ /
+                                | _/ _.'
+                                |/__/
+                                 \
+
+</pre>
+
+2. ТАБЛИЦЫ 
+table
+	thead -> tr -> th
+	tbody -> tr -> td
+	tfoot -> td -> td
+collspan, rowspan
+table, th, tr, td {
+    border: 1px solid magenta;
+    border-collapse: collapse;
+}
+
+<table>
+	<tr>
+		<td>Ячейка 1</td>
+		<td>Ячейка 2</td>
+		<td>Ячейка 3</td>
+	</tr>
+	<tr>
+		<td>Ячейка 4</td>
+		<td>Ячейка 5</td>
+		<td>Ячейка 6</td>
+	</tr>
+	<tr>
+		<td>Ячейка 7</td>
+		<td>Ячейка 8</td>
+		<td>Ячейка 9</td>
+	</tr>
+</table>
+
+3. ФРЕЙМ
+src, width, height, align="center"
+<link rel="stylesheet" href="main.css" type="text/css">
+
+<iframe src="iframe.html" width="200" height="50" align="center">
+    Ваш браузер не поддерживает плавающие фреймы!
+</iframe>
+
+4. Аудио, видео
+<video style="max-height: 320px;" controls>
+    <source type="video/mp4" src="http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4" />
+</video>
+
+5. ФОРМЫ
+<form name="myForm" method="get" action="action.php">...</form>
+
+input type:
+ -> text
+ -> password
+ -> email
+	<label for="name">I'm a label</label> <br>
+	<input type="text" id="name" name="name" placeholder="write your name" value="Max"> <br>
+ -> submit
+    <input type="submit" value="Submit"> <br>
+ -> checkbox
+ 	<input type="checkbox" name="subscribe" checked> <br>
+ -> radio
+ 	<input type="radio" name="gender" value="М"> М <br>
+	<input type="radio" name="gender" value="Ж"> Ж <br>
+ -> select
+ 	<select name="language" multiple>
+		<option value='ua'>Ukrainian</option>
+		<option value='ru'>Russian</option>
+		<option value='en'>England</option>
+ 	</select>
+ -> hidden
+    <input type="hidden" name="user_id" value="1257">
+ -> file  !!! enctype="multipart/form-data" !!!
+ 	<input type="file" name="avatar">
+
+textarea:
+<textarea name="extraInfo" form="myForm">Enter text here...</textarea>
+
+datalist:
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+
+fieldset:
+  <fieldset>
+     <legend>Personalia:</legend>
+     Name: <input type="text"><br>
+     Email: <input type="text"><br>
+     Date of birth: <input type="text">
+  </fieldset>

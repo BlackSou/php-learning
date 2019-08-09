@@ -1,0 +1,118 @@
+24/12/2018
+
+1. Установить git:
+ -> Ubuntu 18:
+	sudo apt update
+	sudo apt install git
+	git --version
+ -> Windows
+	https://git-scm.com/download/win
+
+2. Set user data
+	git config --global user.name "Your Name"
+	git config --global user.email "your_email@whatever.com"
+
+3. init - Create repo
+	git init
+
+4. Add - добавление файла(ов) в "слепок" будущего коммита
+	git add git.html
+	or git add git.html filename2 filename3
+	or git add somepath/somedir/filename
+	or git add *.php
+	OR 
+	git add .
+
+5. Commit - фиксирование изменений в git (local repo)
+	git commit
+	with message - git commit -m "created git.html"
+
+6. Status - текущий статус файлов, ветки, ...
+	git status
+
+7. Checkout - отмена изменений before "git add" / или применение внешних изменений
+	git checkout
+	git checkout filename
+	git checkout hash
+	git checkout branchname
+
+8. Log - история проекта
+	git log
+	git log
+	 --pretty=oneline - однострочный формат
+	 --max-count=2 - кол-во
+	 --since='5 minutes ago'
+	 --until='5 minutes ago'
+	 --author=<your name>
+	 --all
+
+	git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+		%h - simple hash commit
+		%ad - дата коммита
+		%s - комментарий
+		%d - дополнения коммита
+		%an — имя автора
+		--graph — отображает дерево коммитов в виде ASCII-графика
+		--date=short — сохраняет формат даты коротким и симпатичным
+
+9. Alias - сокращенные команды
+	git config --global alias.st status
+	git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+
+
+10. Reset - Отмена проиндексированных изменений before "git commit"
+	git reset HEAD index.html - а потом git checkout index.html 
+	git reset --hard <hash> - откат/сброс ветки до хеша 
+
+11. Revert - Отмена commit'ов
+	git revert HEAD
+
+12. Branch - работа с "ветками"
+	git branch - отобразить список веток локального репозитория
+	git branch -a - отобразить список remote-веток
+	git branch test - переключиться на локальную ветку test (если нет - создается от текущей)
+	git checkout test - применить изменения с ветки test
+	||
+	git checkout -b test - короткая команда равна двум предидущим
+
+	git branch --track test origin/test2 - связать локальную ветку с удаленной веткой
+
+13. Merge - слияние веток
+	git merge master - означает что в текущю ветку "зальется" ветка master
+	СОЗДАТЬ КОНФЛИКТ
+	git merge origin/master- означает что в текущю ветку "зальется" ветка master
+
+14. Rebase - перебазирование (merge но линейный)
+	git rebase master
+
+15. Clone - клонирование репозитория (локально ничего нет но есть в gitlab)
+	git clone <url-to-repository>
+
+16. Remote - дистанционный/удаленный репозиоторий
+	git remote - отобразить перечень remote репозиториев
+	git remote show origin - инфо по remote репе
+	git remote add origin <url-to-repository> - связать локальный репо с удаленным репо origin
+
+17. Fetch - извлечение изменений с remote репы
+	git fetch - получает новые коммиты из всех remote реп, но не сливает их с локальными
+	git fetch [origin] - получает новые коммиты из remote origin репы, но не сливает их с локальными
+
+18. Pull - Извлечение и слияние изменений
+	git fetch
+	git merge origin/master
+	||
+	git pull - git pull origin master
+
+19. Push - Применение, отправка изменений
+    git push origin master - отправка коммитов с текщей ветки на origin/master
+
+ИНИЦИАЛИЗАЦИЯ ПРОЕКТА:
+- когда есть только удаленный репо
+	git clone <url-to-repository>
+	cd <project-name>
+	
+- когда есть удаленный репо, и ЕСТЬ папка проекта
+	git init
+	git remote add origin <url-to-repository>
+	git branch --track origin master
+	git pull origin master

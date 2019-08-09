@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="form.php" method="post" enctype="multipart/form-data">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="secret">Pass</label>
+        <input type="password" name="secret" id="secret">
+        <br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="gender1">male</label>
+        <input type="radio" name="gender" id="gender1" value="male">
+        <br>
+        <label for="gender2">female</label>
+        <input type="radio" name="gender" id="gender2" value="female">
+        <br>
+        <label for="myImage">FILE</label>
+        <input type="file" name="uploadImage" id="myImage">
+        <br>
+        <label for="myImage2">FILE2</label>
+        <input type="file" name="uploadImage2" id="myImage2">
+        <br>
+
+        <input type="submit" value="OK">
+    </form>
+
+</body>
+</html>

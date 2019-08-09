@@ -1,0 +1,7 @@
+План занятия:
+	1. 15min - creating merge requests
+	2. 10min - задания для Суперменов "git" (@Artem Chernenko, @Medvedev Sergey)
+	3. 45min - HTML (окончание) упор на таблицы и двойной упор на формы
+	4. 15min - задания для Суперменов "HTML, CSS" (@Damov Dmitriy, @Sviatoslav, @Artem Chernenko, @Vladimir Veklenko)
+	5. 15min - Bootstrap
+	6. >50min - CSS (весь курс по devionity)

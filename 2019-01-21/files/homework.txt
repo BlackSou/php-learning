@@ -1,0 +1,30 @@
+`Домашнее задание 21/01/2019`
+
+
+*программа минимум*:
+0. Закончить предидущую домашку
+
+1. _прочитать теорию_:
+  - КУРС (https://devionity.com/ru/courses/php-fundamentals) - до конца
+  - именование в прогрмаммировании - https://ru.hexlet.io/blog/posts/naming-in-programming
+  - type hinting - https://habr.com/ru/post/94714/
+
+2. ПРАКТИКА:
+  - написать print_r рекурсией - с табуляцией
+
+
+*программа максимум*:
+1. _прочитать теорию_:
+  - Функции управления функциями - http://php.net/manual/ru/ref.strings.php
+  - Почему не стоит закрывать тег PHP: http://qaru.site/questions/3385/why-would-one-omit-the-close-tag
+  - type hinting - https://mlocati.github.io/articles/php-type-hinting.html
+
+2. _пройти обучение_:
+  - КУРС (https://code-basics.ru/languages/php) - до конца
+
+3. _посмотреть видео_ с Олегом:
+ - Массивы, циклы 2 - https://php-academy.kiev.ua/video/view/4347-Массивы-циклы-2
+ - Функции 1 - https://php-academy.kiev.ua/video/view/4348-Функции-1
+
+4. ПРАКТИКА:
+  - написать var_dump рекурсией - с использованием стилей, табуляцией

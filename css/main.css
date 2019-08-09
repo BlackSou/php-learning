@@ -1,0 +1,77 @@
+
+body {
+  background: url("../img/cover.jpg") center top / cover;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav a {
+  position: relative;
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+}
+li {
+  margin-top: 40px;
+  font-size: 25px;
+}
+.arrow {
+  display: block;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  border: 2px solid #000;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+.arrow:hover {
+  background: #70C6F5;
+  color: #000;
+}
+
+.service__linkz::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  max-width: 0;
+  color: #0D10D3;
+  content: attr(data-hover);
+  -webkit-transition: max-width 0.5s;
+  -moz-transition: max-width 0.5s;
+  transition: max-width 0.5s;
+  white-space: nowrap;
+}
+
+.service__linkz:hover::before,
+.service__linkz:focus::before {
+  max-width: 100%;
+  border-bottom: 2px solid #0D10D3;
+}

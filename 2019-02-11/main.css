@@ -1,0 +1,16 @@
+body {
+    background-color: #ced4da;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.greetings {
+    color: #0b2e13
+}

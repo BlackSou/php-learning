@@ -1,0 +1,56 @@
+`Домашнее задание 28/01/2019`
+
+*программа минимум*:
+
+1. _посмотреть видео_ с Олегом:
+ - Заголовки - https://php-academy.kiev.ua/video/view/4375-Заголовки
+
+2. _теория_:
+ 2.а. Devionity:
+ - https://devionity.com/ru/courses/php-fundamentals
+    = от Режимы работы с файлами  (включительно)
+    = до Включение файлов  (включительно)
+ - Функции для работы с файлами - https://devionity.com/ru/courses/php-fundamentals/php-file-functions
+ - Создаем форму регистрации с сохранением данных в файл - https://devionity.com/ru/courses/php-fundamentals/creating-registration-form-using-filesystem
+ 2.б. файлы (запись/чтение)
+ - fopen - http://php.net/manual/ru/function.fopen.php
+ - fclose - http://php.net/manual/ru/function.fclose.php
+ - fread -http://php.net/manual/ru/function.fread.php
+ - fwrite -http://php.net/manual/ru/function.fwrite.php
+ - fgets -http://php.net/manual/ru/function.fgets.php
+ - fputs -http://php.net/manual/ru/function.fputs.php
+ - feof -http://php.net/manual/ru/function.feof.php
+ - file_get_contents -http://php.net/manual/ru/function.file-get-contents.php
+ - file_put_contents -http://php.net/manual/ru/function.file-put-contents.php
+ - file -http://php.net/manual/ru/function.file.php
+ - flock -http://php.net/manual/ru/function.flock.php
+ - unlink -http://php.net/manual/ru/function.unlink.php
+ 2.в. подключение файлов
+ - include - http://php.net/manual/ru/function.include.php
+ - require - http://php.net/manual/ru/function.require.php
+ - include_once - http://php.net/manual/ru/function.include-once.php
+ - require_once - http://php.net/manual/ru/function.require-once.php
+
+3. ПРАКТИКА:
+ - I. `Задачи по алгоритмам (основы)`
+   Все задания должны выполняться в папке "`*2019-01-23/maximum-basics*`" , в отдельных файлах, которые должны называться по номеру задания, например, "17.php".
+   Если задание требует создания нескольких файлов - то такие файлы необходимо размещать в папке, название которой равно номеру задания.
+   Разместить все в своей репе на гите
+   задания в файле ../homework-max-basics.txt
+   *ВАЖНО*: размещать решение только после прохождения проверки на `codewars`, также в каждом файле добавлять условие в комментарии перед решением задачи
+
+
+*программа максимум*:
+
+1. _посмотреть видео_ с Олегом:
+ - Заголовки-куки-сессии - https://php-academy.kiev.ua/video/view/4376-Заголовки-куки-сессии
+
+2. _теория_:
+ - COOKIE - https://devionity.com/ru/courses/php-cookies
+ - Многобайтовые строки (Мультибайтовые кодировки). Введение - http://php.net/manual/ru/intro.mbstring.php
+ - Функции для работы с многобайтовыми строками - http://php.net/manual/ru/ref.mbstring.php
+
+3. _полезно узнать_:
+ - Что такое BOM? Почему PHP'шники его не любят? - https://ru.wikipedia.org/wiki/Маркер_последовательности_байтов
+ - Для чего использовать флаг 'b' в функции fopen? - http://php.net/manual/ru/function.fopen.php
+ - UTF-8 в PHP - https://habr.com/ru/post/113715/

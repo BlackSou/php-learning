@@ -1,0 +1,30 @@
+`Домашнее задание 17/12/2018`
+
+*программа минимум*:
+1.  _прочитать теорию_:
+https://devionity.com/ru/courses/html-fundamentals - без ограничений по времени  https://devionity.com/ru/courses/network-basics - без ограничений по времени
+https://habrahabr.ru/post/215117/ - до 30 минут
+2. Установить и _настроить XAMPP на Windows_ -  https://www.apachefriends.org/ru/index.html
+3.  Настроить _виртуальный хост "http://test.loc"_ так чтобы выводился html документ из урока "Создаем первый HTML документ " https://devionity.com/ru/courses/html-fundamentals/creating-your-first-html-document
+
+*программа максимум*:
+1.  _прочитать теорию_:
+https://ru.wikipedia.org/wiki/HTTP - до 20 минут
+https://habr.com/post/267721/ - до 20 минут
+2. Установить и _настроить Unix систему_ (Ubuntu , Mate, Linux, Kubuntu) https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop
+2.a. _Установить PHP-fpm >= 7.1, MySQL, nginx_
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
+для тех кому сложно на английском вот статейка на русском для Ubuntu 16
+https://www.digitalocean.com/community/tutorials/linux-nginx-mysql-php-lemp-ubuntu-16-04-ru
+3.  Настроить _виртуальный хост "http://test.loc"_ так чтобы выводился html документ из урока "Создаем первый HTML документ " https://devionity.com/ru/courses/html-fundamentals/creating-your-first-html-document (рекомендую настроить директорию проекта не так как предлагают в пункте 2.а. в "/var/www/html/info.php" а в "~/sites/test.loc/index.html"
+
+*ЗАДАНИЕ для СУПЕРМЕНОВ*:
+(суть задания подготовить рассказ на 2 минуты кратко и структурировано отвечающий на один из вопросов - это задание поможет вам самим больше чем тем кому вы будете это рассказывать, если вы согласитесь то напишите мне какой вопрос берете)
+1. Чем отличается Apache от Nginx?
+2. Чем отличается Windows от Linux и MacOS? @Medvedev Sergey
+3. Чем отличается http от https и какие протоколы еще бывают, в чем их суть? @Artem Chernenko
+4. Чем отличается GET от POST, какие виды запросов еще бывают и чем они особенные? @Valera Mishin
+
+P.S. совсем забыл важно и нужно:
+- установить PHPStorm оформить БЕСПЛАТНУЮ лицензию ( https://php-academy.kiev.ua/students/profile )
+- установить текстовый редактор Sublime или Notepad (edited)
